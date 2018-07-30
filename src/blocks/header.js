@@ -21,16 +21,6 @@ StyledHeader.Nav = styled.nav`
     background: ${fromTheme("brown")};
     `
 
-StyledHeader.SVG = styled(ReactSVG)`
-    width: 100px;
-    margin-top: .5em;
-    margin-left: .5em;
-    
-    .st2 {
-        fill: ${fromTheme("white")}
-    }
-`
-
 StyledHeader.OptionsContainer = styled.div`
     padding-right: 5em;
 `

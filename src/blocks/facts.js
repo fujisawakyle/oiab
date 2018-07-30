@@ -30,19 +30,6 @@ StyledFacts.FlexRowToCol = styled.div`
 
 `
 
-StyledFacts.SVG = styled(ReactSVG)`
-    order: 0;
-    padding: 1em;
-    height: auto;
-    width: 150px;
-    
-    ${media.sm`
-        order: 1;
-        padding: 0 1em;
-        width: 180px;
-    `}
-`
-
 StyledFacts.Text = styled.div`
     order: 1;
     padding: 1em;

@@ -1,0 +1,19 @@
+{
+  "title": "Take Action",
+  "header1": "Take action now to",
+  "highlighted": "Help frank",
+  "header2": "and the 1 billion chickens like him",
+  "firstActionHeader": "call on [company name]",
+  "companyLogo": "/img/mark-and-spencer.png",
+  "firstActionText": "Urge [company name] to adopt higher standards for chicken welfare",
+  "firstButtonLink": "https://url.com",
+  "firstButtonText": "Take action",
+  "secondActionHeader": "Join the FAN",
+  "secondActionText": "Receive daily emails with quick and easy actions that you can take to support our current One in a Billion initiative campaigns.",
+  "secondButtonLink": "https://thehumaneleague.org/en_GB/fast-action-network/",
+  "secondButtonText": "Join",
+  "thirdActionHeader": "Become a volunteer",
+  "thirdActionText": "Help us campaign for a better life for chickens by becoming a volunteer!",
+  "thirdButtonLink": "mailto:egoddard@thehumaneleague.org",
+  "thirdButtonText": "Volunteer"
+}

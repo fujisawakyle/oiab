@@ -1,0 +1,36 @@
+{
+  "title": "Nav",
+  "links": [
+    {
+      "linkText": "Video",
+      "path": "video"
+    },
+    {
+      "linkText": "Learn more",
+      "path": "facts"
+    },
+    {
+      "linkText": "It's time for change",
+      "path": "petition"
+    },
+    {
+      "linkText": "Take action",
+      "path": "action"
+    },
+    {
+      "linkText": "What the industry is saying",
+      "path": "industry"
+    },
+    {
+      "linkText": "Track progress",
+      "path": "progress"
+    },
+    {
+      "linkText": "Media Hub",
+      "path": "media"
+    }
+  ],
+  "fbURL": "https://facebook.com",
+  "igURL": "https://instagram.com",
+  "twURL": "https://twitter.com/ItsFrankChicken"
+}

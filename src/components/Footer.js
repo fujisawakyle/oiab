@@ -18,8 +18,6 @@ export default class Footer extends Component {
                 <StyledContentContainer maxWidth={fromTheme("contentMaxConstained")}>
                     <SVG
                         path={logo}
-                        widthMobile={"250px"}
-                        widthDesktop={"300px"}
                     />
                     <FOOTNOTE>{footerData.body}</FOOTNOTE>
                 </StyledContentContainer>

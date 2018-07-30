@@ -16,8 +16,8 @@ export default class Footer extends Component {
         return (
             <StyledSection backgroundColor={fromTheme("brown")}>
                 <StyledContentContainer maxWidth={fromTheme("contentMaxConstained")}>
-                    <SVG
-                        path={logo}
+                    <img
+                        src={logo}
                     />
                     <FOOTNOTE>{footerData.body}</FOOTNOTE>
                 </StyledContentContainer>

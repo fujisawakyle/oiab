@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import media from '../css_config/media';
-import ReactSVG from 'react-svg';
+
 
 import { fromTheme } from "../css_config/mixins";
 
@@ -164,14 +164,6 @@ export const QUOTE = styled(P)`
     font-size: 4em;
     font-weight: bold;
     text-transform: uppercase;
-`
-
-export const SVG = styled(ReactSVG)`
-    width: ${props => props.widthMobile};
-
-    ${media.sm`
-        width: ${props => props.widthDesktop};
-    `}
 `
 
 export const ActionIcon = styled.img`

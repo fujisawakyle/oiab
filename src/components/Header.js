@@ -15,7 +15,7 @@ export default class Header extends Component {
         return (
             <StyledHeader.Nav>
                 <Link to="/">
-                    <StyledHeader.SVG path={OIABLogo} />
+                    <img style={{ width: '200px' }} src={OIABLogo} />
                 </Link>
                 <StyledHeader.OptionsContainer>
                     <StyledHeader.IconsContainer>

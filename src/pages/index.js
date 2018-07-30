@@ -110,9 +110,9 @@ export default class IndexPage extends Component {
               <Media query="(max-width: 768px">
                 {matches =>
                   matches ? (
-                    <StyledFacts.SVG path={bredSVGSm} />
+                    <img src={bredSVGSm} />
                   ) : (
-                      <StyledFacts.SVG path={bredSVGLg} />
+                      <img src={bredSVGLg} />
                     )
                 }
               </Media>
@@ -125,7 +125,7 @@ export default class IndexPage extends Component {
               mobileDirection={"row"}
               backgroundColor={fromTheme("lightBeige")}
             >
-              <StyledFacts.SVG style={{ padding: ".5em 1em" }} path={trappedSVG} />
+              <img style={{ padding: ".5em 1em" }} src={trappedSVG} />
               <StyledFacts.TextInvertOrder><H1><SpanHighlight backgroundColor={fromTheme("black")}>{factsData.graphic2HighlightText}</SpanHighlight></H1><H3>{factsData.graphic2PlainText}</H3></StyledFacts.TextInvertOrder>
 
               <StyledFacts.DesktopText>
@@ -134,7 +134,7 @@ export default class IndexPage extends Component {
 
             </StyledTriptych>
             <StyledTriptych mobileDirection={"row"} >
-              <StyledFacts.SVG path={designedSVG} />
+              <img src={designedSVG} />
               <StyledFacts.Text><H3>{factsData.graphic3PlainText}</H3><H1><SpanHighlight backgroundColor={fromTheme("black")}>{factsData.graphic3HighlightText}</SpanHighlight></H1></StyledFacts.Text>
               <StyledFacts.DesktopText>
                 {factsData.graphic3BodyText}

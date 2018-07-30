@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import ReactSVG from 'react-svg';
 
 import { fromTheme } from '../css_config/mixins';
 
